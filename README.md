@@ -40,3 +40,10 @@ $ dotnet add package Microsoft.EntityFrameworkCore.Tools
 
 $ dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 
+Add Migration:
+$ avi@darkDreamer:~/Desktop/DotNet-Projects/WebApiCrud/WebApiCrud.ApiEndpoint$ dotnet ef migrations add InitialCreate --project ../WebApiCrud.Data --startup-project .
+
+Database update:
+
+$ avi@darkDreamer:~/Desktop/DotNet-Projects/WebApiCrud/WebApiCrud.ApiEndpoint$ dotnet ef database update --project ../WebApiCrud.Data --star
+tup-project .
